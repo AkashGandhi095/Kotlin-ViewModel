@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate: MainActivity code : ${this.hashCode()}")
         Log.d(TAG, "onCreate: mainViewModel code : ${mainViewModel.hashCode()}")
 
-        val textView = findViewById<TextView>(R.id.textView2)
-        val incBt = findViewById<MaterialButton>(R.id.incButton)
+
 
         textView.text = mainViewModel.num.toString()
 
